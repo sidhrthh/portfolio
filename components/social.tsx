@@ -92,7 +92,7 @@ const DATA = {
 
 export function Social() {
   return (
-    <div className="fixed bottom-5 flex w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background md:shadow-xl">
+    <div className="fixed bottom-5 flex w-full flex-col items-center justify-center overflow-hidden rounded-lg md:shadow-xl">
       <TooltipProvider>
         <Dock direction="middle">
           {DATA.navbar.map((item) => (
